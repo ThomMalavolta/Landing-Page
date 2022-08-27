@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital@0;1&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/variables.css">
+    <link rel="stylesheet" href="assets/css/elements.css">
+    <link rel="stylesheet" href="assets/css/classes.css">
+    <link rel="stylesheet" href="assets/css/menu.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="close menu" role="button">
+    <label class="close-menu-label" for="close-menu" title="close menu"></label>
+    <nav class="menu bg-white">
+        <div class="main-content menu-content">
+            <h1 onclick="getElementById('close-menu').checked = false;">
+                <a href="#intro">LOGO</a>
+            </h1>
+            <ul onclick="getElementById('close-menu').checked = false;">
+                <li><a href="#quem-somos">Quem somos</a></li>
+                <li><a href="#grid-top3">Mais vendidos</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#precos">Preços</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="intro" class="secao intro bg-main-toptobot">
+        <div class="intro main-content intro-content">
+            <div class="intro-text-content">
+                <h2>Thom&Tay Brownies</h2>
+                <p>Somos apaixonados por brownies e queremos transmirtir essa paixão com você! Fazemos eles a mão com
+                    muito amor, carinho, manteiga e cacau! Priorizamos o uso dos melhores ingredientes para levar para
+                    você pedaço desse nosso amor.</p>
+                <p>Esperamos que goste tanto quanto nós!</p>
+            </div>
+            <div class="intro-img-content">
+                <img src="assets/img/img-logo.png" alt="logo">
+            </div>
+        </div>
+    </section>
+    <section id="quem-somos" class="secao intro bg-white">
+        <div class="main-content quem-somos">
+            <h2>Quem somos</h2>
+            <p>Somos um casal natural de São Paulo, atualmente morando em Araraquara, a Morada do Sol, onde sempre faz
+                calor e o por do Sol deixa o céu vermelho. Somos apaixonados por doces e pais de um menino muuuito
+                caristmático que adora nos ajudar! Talvez esse seja o segredo sabor maravilhoso do nosso brownie: Amor
+            </p>
+            <p>Nossa loja surgiu com sonho da independência, tentamos muitas coisas antes de perceber que o melhor para
+                nós seria fazer o que amamos ao invés de fazer o que está na "moda", assim começamos a preparar nossos
+                brownies para vocês.</p>
+            <p>Buscamos usar o que há de melhor nos ingredientes para garantir a excelência do sabor que vocês
+                conhecem(ou precisam conhecer). Tudo é pesado, peneirado e cronometrado, por que, além de uma atividade
+                prazerosa, cozinhar também é uma ciência.</p>
+        </div>
+    </section>
+
+    <section id="grid-top3" class="intro grid-top3 secao bg-main-toptobot">
+        <div class="grid-top3-content main-content">
+            <h2 class="grid-heading">Mais vendidos</h2>
+            <p class="grid-description">Os preferidos da galera.</p>
+            <div class="grid">
+                <article>
+                    <h3>Blend</h3>
+                    <p>Com pedaços de um delicioso chocolate misto sabor meio amargo e ao leite, o Brownie Blend sempre
+                        agrada, a pedida certa para algo um pouco mais doce com um tchan diferente.</p>
+                </article>
+
+                <article>
+                    <h3>Tradicional</h3>
+                    <p>O clássico. Simplesmente gostoso. Nem mais, nem menos.</p>
+                </article>
+
+                <article>
+                    <h3>Amêndoas</h3>
+                    <p>A crocância da amêndoa torrada e seu sabor único complementam muito bem o sabor amanteigado e
+                        cacauzudo do nosso brownie. <br>O favorito da casa.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="intro grid-top3 secao bg-white">
+        <div class="grid-top3-content main-content">
+            <h2 class="grid-heading">Brownies!</h2>
+            <p class="grid-description">Os preferidos da galera.</p>
+            <div class="grid">
+                <div class="gallery-img">
+                    <img src="assets/img/oreo-scale320.jpg" alt="Brownie com pedaços de Oreo">
+                </div>
+                <div class="gallery-img">
+                    <img src="assets/img/chocbranco-scale320.jpg" alt="Brownie com pedaços de chocolate branco">
+                </div>
+                <div class="gallery-img"> 
+                    <img src="assets/img/amendoas-scale320.jpg" alt="Brownie com amêndoas">
+                </div>
+                <div class="gallery-img">
+                    <img src="assets/img/banana-scale320.jpg" alt="Brownie com pedaços de banana">
+                </div>
+                <div class="gallery-img">
+                    <img src="assets/img/blend-scale320.jpg" alt="Brownie com pedaços de chocolate blend">
+                </div>
+                <div class="gallery-img">
+                    <img src="assets/img/chocaoleite-scale320.jpg" alt="Brownie com pedaços de chocolate ao leite">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="precos" class="secao intro bg-tabela-preco">
+        <div class="intro main-content intro-content">
+            <div class="intro-text-content">
+                <h2>Sabores e valores</h2>
+            </div>
+            <br>
+            <div class="responsive-table">
+                <table class="tabela-precos">
+                    <thead class="bg-white">
+                        <tr>
+                            <th>Sabores</th>
+                            <th>Valores</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Tradicional</td>
+                            <td>R$ 15,00</td>
+                        </tr>
+                        <tr>
+                            <td>Blend</td>
+                            <td>R$ 18,00</td>
+                        </tr>
+                        <tr>
+                            <td>Chocolate branco</td>
+                            <td>R$ 18,00</td>
+                        </tr>
+                        <tr>
+                            <td>Chocolate ao leite</td>
+                            <td>R$ 18,00</td>
+                        </tr>
+                        <tr>
+                            <td>Chocolate meio-amargo</td>
+                            <td>R$ 18,00</td>
+                        </tr>
+                        <tr>
+                            <td>Banana</td>
+                            <td>R$ 17,00</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="secao intro bg-white">
+        <div class="intro main-content intro-content">
+            <div class="intro-text-content contact-text">
+                <h2>Fala que eu te escuto</h2>
+                <p class="contat-description">Se gostou, fala pra gente(assim nós sabemos sabe que estamos no caminho certo).
+                <p>Se não gostou, fala também(é assim que nós melhoramos)!</p>
+            </div>
+            <div class="contact-form">
+                <fieldset class="form-field">
+                    <legend>Quem é você?</legend>
+                    <form class="form-grid" action="#" target="_blank">
+                        <div class="form-group">
+                            <label for="first-name">Nome: </label>
+                            <input type="text" name="first-name" id="first-name" placeholder="Primeiro nome" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="last-name">Sobrenome: </label>
+                            <input type="text" name="last-name" id="last-name" placeholder="Sobrenome" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email" placeholder="Email principal" required>
+                        </div>
+                        <div class="form-group full-width">
+                            <label for="message">Mensagem</label>
+                            <textarea name="message" id="message" cols="30" rows="10" placeholder="Sua mensagem."></textarea>
+                        </div>
+                        <div class="form-group full-width">
+                            <button type="submit">Enviar mensagem</button>
+                        </div>
+                    </form>
+                </fieldset>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>Feito com <span class="heart">♥</span> por Thomás Malavolta </p>
+    </footer>
+
+    <a class="back-to-top" href="#">➤</a>
+</body>
+
+</html>
