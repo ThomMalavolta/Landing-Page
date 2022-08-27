@@ -1,0 +1,50 @@
+/*Crie classes parar facilitar a aplicação do CSS em varios locais*/
+
+/* BACKGROUND */
+.bg-main-toptobot {
+    background-size: cover;
+    background-position: center center;
+    background-image: linear-gradient(to bottom, 
+    rgba(77, 28, 0, 1),
+    rgba(77, 28, 0, .80), 
+    rgba(77, 28, 0, .70), 
+    rgba(77, 28, 0, .40), 
+    rgb(255, 255, 255));
+    color: var(--color-white);
+
+}
+
+.bg-white {
+    background-color: var(--color-white);
+    color: var(--primary-color);
+}
+
+.bg-white p {
+    color: black;
+}
+
+.bg-tabela-preco {
+    background-size: cover;
+    background-position: center center;
+    background-color: rgba(77, 28, 0, .80);
+    color: white;
+}
+
+/* -------------------------------------- */
+/*CONTEUDO*/
+
+.main-content {
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 8rem var(--content-padding);
+}
+
+.secao {
+    min-height: 100vh;
+}
+
+
+div .full-width {
+    width: 100%;
+    flex: 1 1 100%;
+}

@@ -1,0 +1,9 @@
+/* variáveis globais */
+:root {
+    --primary-color: rgba(77, 28, 0, 1);
+    --color-white: #fff;
+    --color-lightgray: #EEEEEE;
+    --color-linkeffect: #ca0101;
+    --content-padding: 30px;
+}
+
